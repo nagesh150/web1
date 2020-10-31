@@ -1,0 +1,87 @@
+body{
+    background: url(img/barbell.jpg);
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    position: absolute;
+    left: 50px;
+    top: 8px;
+    display: inline-block;
+    text-align: center;
+    line-height: 6px;
+    font-size: 18px;
+    padding: 2px;
+    }
+.left img{
+    width: 120px;
+}
+        
+    .mid{
+    display: block;
+    margin: 12px auto;
+    width: 44%;
+    
+    }
+    .right{
+        position: absolute;
+        right: 35px;
+        top: 10px;
+        display:inline-block;
+    }
+    .navbar{
+display: inline;
+    }
+    .navbar li{
+        display: inline;
+        color: white;
+        font-size: 16px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    
+    .navbar li a:hover{
+      text-decoration: underline;
+      color: gray;
+    }
+    .but{
+        margin: 0px 9px;
+        background-color:black ;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .but:hover{
+        background-color: rgba(15, 15, 15, 0.938);
+    }
+    .container{
+        position: absolute;
+        margin: 120px 20px;
+        
+        padding:100px 100px ;
+        
+        color: b;
+        text-align: center;
+        text-size-adjust: 62px;
+        font-size: 20px;
+    }
+    .form{
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        padding: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        
+    }
+    #Submit{
+        align-self: center;
+        width: 100%;
+    }
